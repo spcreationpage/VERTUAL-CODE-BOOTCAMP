@@ -1,0 +1,266 @@
+**VIRTUAL MERN STACK CODING BOOTCAMP - VS CODE SETUP GUIDE**
+
+===============================================================================
+**HOW TO RUN THIS PROJECT IN VS CODE**
+===============================================================================
+
+**PREREQUISITES:**
+1. **Node.js** (Download from: https://nodejs.org/)
+2. **VS Code** (Download from: https://code.visualstudio.com/)
+3. **MongoDB** (Download from: https://www.mongodb.com/try/download/community)
+
+===============================================================================
+**STEP 1: OPEN PROJECT IN VS CODE**
+===============================================================================
+
+1. **Open VS Code**
+2. **File** → **Open Folder**
+3. **Select your project folder**
+4. **Open integrated terminal:** **Ctrl + `** (Windows/Linux) or **Cmd + `** (Mac)
+
+===============================================================================
+**STEP 2: INSTALL REQUIRED PACKAGES**
+===============================================================================
+
+**Run these commands in VS Code terminal:**
+
+**npm install**
+
+**Additional packages you might need for full MERN development:**
+
+**npm install express**
+**npm install mongoose**
+**npm install cors**
+**npm install dotenv**
+**npm install bcryptjs**
+**npm install jsonwebtoken**
+**npm install axios**
+**npm install react-router-dom**
+
+**For development dependencies:**
+
+**npm install -D nodemon**
+**npm install -D concurrently**
+
+===============================================================================
+**STEP 3: VS CODE EXTENSIONS (RECOMMENDED)**
+===============================================================================
+
+**Install these extensions in VS Code:**
+
+1. **ES7+ React/Redux/React-Native snippets**
+2. **Prettier - Code formatter**
+3. **ESLint**
+4. **Auto Rename Tag**
+5. **Bracket Pair Colorizer**
+6. **GitLens**
+7. **MongoDB for VS Code**
+8. **Thunder Client** (for API testing)
+9. **Live Server**
+10. **JavaScript (ES6) code snippets**
+
+**To install extensions:**
+- **Ctrl + Shift + X** (Windows/Linux) or **Cmd + Shift + X** (Mac)
+- **Search for extension name**
+- **Click Install**
+
+===============================================================================
+**STEP 4: START THE DEVELOPMENT SERVER**
+===============================================================================
+
+**In VS Code terminal, run:**
+
+**npm run dev**
+
+**The application will open in your browser at:**
+**http://localhost:5173**
+
+===============================================================================
+**STEP 5: MONGODB SETUP (LOCAL)**
+===============================================================================
+
+**Option 1: Install MongoDB Locally**
+
+1. **Download MongoDB Community Server**
+2. **Install MongoDB**
+3. **Start MongoDB service:**
+   - **Windows:** **net start MongoDB**
+   - **Mac/Linux:** **sudo systemctl start mongod**
+
+4. **Default MongoDB URL:**
+   **mongodb://localhost:27017/bootcamp**
+
+**Option 2: Use MongoDB Atlas (Cloud)**
+
+1. **Create account at:** **https://www.mongodb.com/atlas**
+2. **Create cluster**
+3. **Get connection string**
+4. **Paste in the MongoDB section of the app**
+
+===============================================================================
+**STEP 6: PROJECT STRUCTURE FOR FULL MERN STACK**
+===============================================================================
+
+**For a complete MERN project, create this structure:**
+
+```
+project-folder/
+├── client/          (React frontend - current setup)
+│   ├── src/
+│   ├── public/
+│   └── package.json
+├── server/          (Node.js + Express backend)
+│   ├── models/      (MongoDB models)
+│   ├── routes/      (API routes)
+│   ├── middleware/  (Custom middleware)
+│   ├── config/      (Database config)
+│   ├── controllers/ (Route controllers)
+│   └── server.js    (Main server file)
+└── package.json     (Root package.json)
+```
+
+===============================================================================
+**STEP 7: USEFUL VS CODE SHORTCUTS**
+===============================================================================
+
+**File Operations:**
+- **Ctrl + N** - New file
+- **Ctrl + O** - Open file
+- **Ctrl + S** - Save file
+- **Ctrl + Shift + S** - Save all files
+
+**Code Navigation:**
+- **Ctrl + P** - Quick file search
+- **Ctrl + Shift + P** - Command palette
+- **Ctrl + G** - Go to line
+- **Ctrl + F** - Find in file
+- **Ctrl + H** - Find and replace
+
+**Code Editing:**
+- **Alt + Up/Down** - Move line up/down
+- **Shift + Alt + Down** - Copy line down
+- **Ctrl + /** - Toggle comment
+- **Ctrl + D** - Select next occurrence
+
+**Terminal:**
+- **Ctrl + `** - Toggle terminal
+- **Ctrl + Shift + `** - New terminal
+
+===============================================================================
+**STEP 8: ENVIRONMENT VARIABLES SETUP**
+===============================================================================
+
+**Create a .env file in your project root:**
+
+```
+**NODE_ENV=development**
+**PORT=5000**
+**MONGODB_URI=mongodb://localhost:27017/bootcamp**
+**JWT_SECRET=your_jwt_secret_key**
+**FRONTEND_URL=http://localhost:5173**
+```
+
+**Install dotenv to use environment variables:**
+**npm install dotenv**
+
+===============================================================================
+**STEP 9: PACKAGE.JSON SCRIPTS FOR FULL MERN**
+===============================================================================
+
+**Add these scripts to your package.json:**
+
+```json
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "server": "nodemon server/server.js",
+    "client": "npm run dev",
+    "dev-full": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "node server/server.js"
+  }
+}
+```
+
+===============================================================================
+**STEP 10: TROUBLESHOOTING COMMON ISSUES**
+===============================================================================
+
+**Issue: Port already in use**
+- **Solution:** **npx kill-port 5173** or **npx kill-port 5000**
+
+**Issue: Module not found**
+- **Solution:** **npm install** or **npm install [package-name]**
+
+**Issue: MongoDB connection error**
+- **Check if MongoDB service is running**
+- **Verify connection string**
+- **Check firewall settings**
+
+**Issue: React app not updating**
+- **Clear browser cache: Ctrl + Shift + R**
+- **Restart dev server: Ctrl + C, then npm run dev**
+
+===============================================================================
+**STEP 11: DEVELOPMENT WORKFLOW**
+===============================================================================
+
+**Daily Development Routine:**
+
+1. **Open VS Code**
+2. **Open integrated terminal: Ctrl + `**
+3. **Start MongoDB service** (if using local MongoDB)
+4. **Run development server: npm run dev**
+5. **Open browser to: http://localhost:5173**
+6. **Start coding!**
+
+**For full MERN development:**
+1. **npm run dev-full** (runs both client and server)
+2. **Frontend: http://localhost:5173**
+3. **Backend API: http://localhost:5000**
+
+===============================================================================
+**STEP 12: DEBUGGING IN VS CODE**
+===============================================================================
+
+**For React debugging:**
+1. **Install React Developer Tools** browser extension
+2. **Use browser console: F12**
+3. **VS Code debugger: F5**
+
+**For Node.js debugging:**
+1. **Add breakpoints: Click left of line number**
+2. **Start debugging: F5**
+3. **Use VS Code debug console**
+
+===============================================================================
+**ADDITIONAL RESOURCES**
+===============================================================================
+
+**Documentation:**
+- **React:** https://react.dev/
+- **Node.js:** https://nodejs.org/docs/
+- **Express:** https://expressjs.com/
+- **MongoDB:** https://docs.mongodb.com/
+- **Mongoose:** https://mongoosejs.com/docs/
+
+**Learning Resources:**
+- **MDN Web Docs:** https://developer.mozilla.org/
+- **React Tutorial:** https://react.dev/learn
+- **Node.js Tutorial:** https://nodejs.org/en/learn/
+- **MongoDB University:** https://university.mongodb.com/
+
+===============================================================================
+**NEED HELP?**
+===============================================================================
+
+**If you encounter any issues:**
+1. **Check the terminal for error messages**
+2. **Read error messages carefully**
+3. **Search for solutions online**
+4. **Check package versions compatibility**
+5. **Restart VS Code and terminal**
+
+**Happy Coding! 🚀**
+
+===============================================================================
